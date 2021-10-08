@@ -183,7 +183,7 @@ static int __init initProcess(void)
 static void __exit icpuCleanup(void)
 {
 	remove_proc_entry("cpu_grupo22", NULL);
-	printk(KERN_INFO "procesos cpu grupo 22 eliminado\n");
+	printk(KERN_INFO "procesos cpu grupo 22 \n");
 }
 
 module_init(initProcess);
